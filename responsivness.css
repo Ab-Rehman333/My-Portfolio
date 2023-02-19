@@ -1,0 +1,147 @@
+/* for responsiveness  */
+@media only screen and (max-width:1570px) {
+
+
+    .background-color-silver {
+        width: 1450px;
+        height: 95%;
+    }
+
+    .form-main-wrapper {
+
+        margin-right: -42px;
+
+    }
+
+    .for-color>.background-color-yellow {
+        height: 69px;
+
+    }
+}
+
+@media only screen and (max-width:1450px) {
+
+
+
+    .form-main-wrapper {
+        width: 808px;
+        margin-right: -32px;
+
+    }
+}
+
+@media only screen and (max-width:1345px) {
+
+
+
+    .form-main-wrapper {
+        width: 708px;
+        margin-right: -22px;
+        padding: 1em 0;
+
+
+    }
+}
+
+@media only screen and (max-width:1300px) {
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .form-main-wrapper {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    section {
+        height: auto;
+        width: 100%;
+    }
+
+    .background-color-silver {
+        background-color: #f9f9f9;
+        height: auto;
+    }
+
+    .content-first-column {
+        height: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    .title {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .text>p {
+
+        text-align: center;
+    }
+
+    .title>h1 {
+
+        text-align: center;
+    }
+
+    .text {
+        padding: 0 1em;
+
+    }
+
+    #form-right-image {
+        height: 200px;
+    }
+
+}
+
+@media only screen and (max-width:1040px) {
+
+    .form-main-wrapper {
+        flex-wrap: wrap;
+        padding: 1rem 0;
+        height: 800px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .for-color>.background-color-yellow {
+        width: 293px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+
+    .for-color>.background-color-yellow {
+        width: 293px;
+    }
+
+    #form-right-image {
+        height: 200px;
+    }
+
+    .form-main-wrapper {
+        height: 811px;
+    }
+
+    .form {
+        padding: 1em 1em;
+    }
+
+}
+
+@media only screen and (max-width:450px) {
+    .form-main-wrapper {
+        height: 830px;
+    }
+
+
+}
